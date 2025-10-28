@@ -157,7 +157,7 @@ Graph* leer_archivo(const string& filename) {
     return G;
 }
 
-int main(int argc, char* argv[]) {
+int main() {
 
     Graph* G = leer_archivo("entrada.txt");
 
